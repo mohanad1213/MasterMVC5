@@ -6,6 +6,12 @@ body
 .btn
 {
 	background-color: #9CBA7F;
-	border:1px #ccc;
+	border:none;
 	padding: 10px;
+}
+
+.btn:hover
+{
+		background-color: #ccc;
+		cursor:pointer;
 }
