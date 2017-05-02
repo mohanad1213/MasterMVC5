@@ -12,7 +12,11 @@ namespace MasterNet.Controllers
         public ActionResult Index()
         {
         var name="mohanad mohamed ali";
+
             name += " Job: software eng";
+
+        int age=25;
+
             return View();
         }
     }
