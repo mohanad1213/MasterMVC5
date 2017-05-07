@@ -4,20 +4,26 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using TestStack;
+using TestStack.FluentMVCTesting;
 using System.Threading.Tasks;
-
+using MasterNet.Models;
 namespace MasterNet.Controllers.Tests
 {
     [TestClass()]
-    public class MasteTests
+    public class MasterControllerTests
     {
         [TestMethod()]
         public void IndexTest()
         {
-   
-          //  TestStack.FluentMVCTesting.ViewResultTest viewResultTest = new TestStack.FluentMVCTesting.ViewResultTest()
+            MasterController masterController = new MasterController();
 
+            List<Human> HumanList = new List<Human>();
+
+
+
+
+          
+          
         }
     }
 }

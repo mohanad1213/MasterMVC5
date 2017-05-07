@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MasterConsole.ServiceLayer;
 
 namespace masterConsole
 {
@@ -10,10 +11,13 @@ namespace masterConsole
     {
         static int Main(string[] args)
         {
-            if (args[0] == "mohanad")
-                return 0;
-            else
-                return 1;
+
+            ServiceLayer.Grade grade = new ServiceLayer.Grade();
+
+            grade.Add(3);
+
+            Console.ReadKey();
+            return 1;
         }
     }
 }
